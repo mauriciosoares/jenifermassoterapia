@@ -42,6 +42,10 @@
     margin-bottom: 20px;
   }
 
+  .services-preview-item img {
+    width: 100%;
+  }
+
   .services-preview-item h2 {
     margin-top: 0;
   }
