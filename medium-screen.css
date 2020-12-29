@@ -4,6 +4,10 @@
     line-height: 1em;
   } 
 
+  .contact-wrapper div:nth-child(1) {
+    margin-bottom: 20px;
+  }
+
   .services-preview-items, .contact-wrapper, .products, .product-questions, .location-wrapper {
     flex-direction: column;
     width: auto;
