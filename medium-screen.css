@@ -37,4 +37,17 @@
   .footer-wrapper {
     padding: 0 20px;
   }
+
+  .services-preview-item {
+    margin-bottom: 20px;
+  }
+
+  .services-preview-item h2 {
+    margin-top: 0;
+  }
+
+  .section, .banner {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 }
