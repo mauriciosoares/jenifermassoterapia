@@ -1,0 +1,32 @@
+@media (max-width: 1100px)
+{
+  .services-preview-items, .contact-wrapper, .products, .product-questions, .location-wrapper {
+    flex-direction: column;
+    width: auto;
+  }
+
+  .services-preview-image {
+    display: none;
+  }
+
+  .section-half .section-wrapper, .section-half .section-wrapper > div, .contact-wrapper > div, .product-questions div:nth-child(1), .footer-wrapper {
+    width: auto !important;
+  }
+
+  .product-questions div:nth-child(1) {
+    text-align: center;
+  }
+
+  .location-wrapper {
+    justify-content: center;
+    text-align: center;
+  }
+
+  .location-info {
+    margin-bottom: 20px;
+  }
+
+  .footer-wrapper {
+    padding: 0 20px;
+  }
+}

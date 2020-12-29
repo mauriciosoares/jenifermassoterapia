@@ -1,0 +1,297 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Roboto;
+  color: #575756;
+  font-size: 20px;
+  line-height: 1.6em;
+}
+
+a {
+  transition: .3s;
+}
+
+a.button i {
+  margin-right: 6px;
+}
+
+a.button {
+  color: white;
+  background: #ed7577;
+  text-decoration: none;
+  padding: 10px 14px;
+  font-weight: lighter;
+}
+
+a.button.inverted {
+  background: white;
+  color: #ed7577;
+}
+
+a:hover, a.button:hover {
+  opacity: .8;
+}
+
+a:active, a.button:active {
+  opacity: .6;
+}
+
+a:not(.button) {
+  color: #ed7577;
+  font-weight: bold;
+  font-style: italic;
+  text-decoration: none;
+  display: inline-block;
+  border-bottom: 1px solid #ed7577;
+  
+}
+
+a.white {
+  color: white;
+  border-bottom: 1px solid white;
+}
+
+h1, h2 {
+  margin: 0
+}
+
+.section {
+  margin: 40px 0;
+}
+
+.section-half .section-wrapper {
+  display: flex;
+  width: 1070px;
+  margin: auto;
+}
+
+.section-half .section-wrapper > div {
+  width: 50%;
+}
+
+.banner {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(./images/hero.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.banner-title {
+  text-align: center;
+}
+
+.banner-title h1 {
+  text-shadow: 3px 3px white;
+  color: #ffaaac;
+  text-transform: uppercase;
+  font-size: 48px;
+  font-weight: lighter;
+  margin-bottom: 10px;
+}
+
+.banner-title div {
+  font-size: 1em;
+  color: white;
+}
+
+
+.section-full .section-title, .section-full .section-upper-title {
+  text-align: center;
+}
+
+.section-upper-title {
+  color: #ed7577; 
+  font-size: 1em;
+}
+.section-title {
+  font-size: 1.6em;
+  font-weight: lighter;
+}
+
+.services-preview {
+  text-align: center;
+}
+
+.services-preview .button {
+  margin-top: 20px;
+}
+
+.services-preview-items {
+  display: flex;
+  width: 1070px;
+  margin: auto;
+  justify-content: space-around;
+  margin-top: 20px;
+  margin-bottom: 25px;
+}
+
+.services-preview-item {
+  text-align: center;
+}
+
+.services-preview-item h2 {
+  color: #ed7577; 
+  margin: 10px 0;
+}
+
+.contact {
+  background: #f99294;
+  color: white;
+  padding: 26px 0;
+}
+
+.contact-wrapper {
+  width: 1070px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+}
+
+.contact-wrapper div:nth-child(1) {
+  width: 65%;
+  text-align: center;
+}
+
+.contact-wrapper div:nth-child(2) {
+  width: 35%;
+  text-align: center;
+}
+
+.services-preview-info {
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
+}
+
+.products {
+  width: 1070px;
+  border: 1px solid #f3f3f3;
+  display: flex;
+  justify-content: space-between;
+  margin: 25px auto 40px;
+}
+
+.product {
+  width: 100%;
+  border-right: 1px solid #f3f3f3;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  position: relative;
+}
+
+.product-title {
+  padding: 25px 0 50px;
+  font-weight: bold;
+  font-size: 1.4em;
+
+}
+
+.product-price-time {
+  position: absolute;
+  background: #cacaca;
+  border-radius: 50%;
+  width: 110px;
+  height: 110px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  line-height: 1.2em;
+  justify-content: center;
+  color: white;
+  top: 80px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.product-price {
+  font-weight: bold;
+  font-style: italic;
+  font-size: 1.7em;
+}
+
+.product-time {
+  font-size: .7em;
+  height: .7em;
+  margin-top: 6px;
+}
+
+.product-info {
+  padding-top: 110px;
+  background: #f7f7f7;
+}
+
+.product-info a {
+  display: block;
+  margin: 30px 20px;
+}
+
+.product:last-child {
+  border: none;
+}
+
+.product-questions {
+  margin: auto;
+  width: 1070px;
+  display: flex;
+  align-items: center;
+}
+
+.product-questions div:nth-child(1) {
+  width: 65%;
+  text-align: left;
+}
+
+.location {
+  position: relative; 
+  height: 300px;
+  overflow: hidden;
+}
+
+.location-map {
+  opacity: .5;
+  margin-top: -55px;
+}
+
+.location-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: rgba(0,0,0,0.5);
+  display: flex;
+  align-items: center;
+}
+
+.location-info {
+  width: 65%;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 30px;
+}
+
+.footer {
+  margin: 20px 0;
+}
+.footer-wrapper {
+  width: 1070px;
+  margin: auto;
+  text-align: right;
+}
+
+.footer a {
+  font-size: 1.6em;
+  display: inline-block;
+  margin-left: 10px;
+  border: none;
+}
