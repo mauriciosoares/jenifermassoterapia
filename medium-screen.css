@@ -1,5 +1,9 @@
 @media (max-width: 1100px)
 {
+  h1 {
+    line-height: 1em;
+  } 
+
   .services-preview-items, .contact-wrapper, .products, .product-questions, .location-wrapper {
     flex-direction: column;
     width: auto;
