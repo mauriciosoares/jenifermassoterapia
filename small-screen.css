@@ -1,0 +1,6 @@
+@media (max-width: 800px)
+{
+  .banner-title h1 {
+    font-size: 9vw;
+  }
+}

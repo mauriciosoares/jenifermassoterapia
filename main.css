@@ -72,6 +72,7 @@ h1, h2 {
 }
 
 .banner {
+  box-shadow: inset 0 0 0 1000px rgba(0,0,0,0.3);
   height: 100vh;
   display: flex;
   align-items: center;
@@ -83,18 +84,26 @@ h1, h2 {
 
 .banner-title {
   text-align: center;
+  font-family: lato;
 }
 
 .banner-title h1 {
-  text-shadow: 3px 3px white;
-  color: #ffaaac;
+  line-height: 1em;
+  color: #ffc0c2;
   text-transform: uppercase;
-  font-size: 48px;
+  font-size: 78px;
   font-weight: lighter;
   margin-bottom: 10px;
 }
 
-.banner-title div {
+.banner-title h1 div {
+  font-size: 0.6em;
+  color: white;
+  letter-spacing: 0.4em;
+  transform: scale(1, 0.8);
+}
+
+.banner-title .sub {
   font-size: 1em;
   color: white;
 }
