@@ -97,10 +97,10 @@ h1, h2 {
 }
 
 .banner-title h1 div {
-  font-size: 0.6em;
+  font-size: 0.65em;
   color: white;
   letter-spacing: 0.4em;
-  transform: scale(1, 0.8);
+  transform: scale(1, 0.7);
 }
 
 .banner-title .sub {
