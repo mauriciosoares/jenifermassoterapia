@@ -59,4 +59,8 @@
   .products {
     border: none;
   }
+
+  .products-bottom {
+    margin: 0;
+  }
 }
