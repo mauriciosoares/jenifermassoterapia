@@ -185,11 +185,24 @@ h1, h2 {
   position: relative;
 }
 
+.product:hover .product-title {
+  color: #ed7577;
+}
+
+.product.highlight .product-title {
+  background: #ed7577;
+  color: white;
+}
+
+.product.highlight .product-price-time {
+  background: #ffaaac;
+}
+
 .product-title {
   padding: 25px 0 50px;
   font-weight: bold;
   font-size: 1.4em;
-
+  transition: .3s;
 }
 
 .product-price-time {
@@ -224,6 +237,10 @@ h1, h2 {
 .product-info {
   padding: 110px 20px 30px;
   background: #f7f7f7;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .product-info a {
