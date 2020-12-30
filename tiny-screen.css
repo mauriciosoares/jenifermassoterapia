@@ -1,10 +1,10 @@
-@media (max-width: 800px)
+@media (max-width: 400px)
 {
   .banner-title h1 {
     font-size: 9vw;
   }
 
   .banner {
-    height: 50vh;
+    height: 30vh;
   }
 }
