@@ -11,4 +11,8 @@
   .product-time-options a {
     font-size: .8em;
   }
+
+  .banner-label {
+    font-size: 4vw;
+  }
 }

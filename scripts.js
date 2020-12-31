@@ -3,6 +3,7 @@ $(function() {
     e.preventDefault()
     const $el = $(e.target)
     const $parent = $(e.target).closest('.product')
+    const $priceTime = $parent.find('.product-price-time')
 
     $parent.find('.product-time-options a').removeClass('selected')
     $el.addClass('selected')
@@ -17,5 +18,11 @@ $(function() {
     if (time) {
       $parent.find('.product-time span').text(time)
     }
+
+    console.log($priceTime)
+    $priceTime.addClass('blink')
+    setTimeout(function() {
+      $priceTime.removeClass('blink')
+    },200)
   })
 })
