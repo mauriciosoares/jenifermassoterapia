@@ -3,4 +3,9 @@
   .banner {
     height: 30vh;
   }
+
+  .banner-label {
+    bottom: 10px;
+    right: 10px;
+  }
 }
