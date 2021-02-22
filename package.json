@@ -1,0 +1,25 @@
+{
+  "name": "jenifermassoterapia",
+  "version": "1.0.0",
+  "description": "",
+  "main": "scripts.js",
+  "scripts": {
+    "bundle": "npm run minify:css && npm run minify:js",
+    "minify:css": "cleancss -o main.min.css fonts.css normalize.css main.css medium-screen.css small-screen.css tiny-screen.css",
+    "minify:js": "uglifyjs scripts.js  --compress --output scripts.min.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mauriciosoares/jenifermassoterapia.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mauriciosoares/jenifermassoterapia/issues"
+  },
+  "homepage": "https://github.com/mauriciosoares/jenifermassoterapia#readme",
+  "dependencies": {
+    "clean-css-cli": "^5.2.0",
+    "uglify-js": "^3.12.8"
+  }
+}
